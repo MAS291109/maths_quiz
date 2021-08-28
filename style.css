@@ -1,0 +1,15 @@
+body{
+    background-image: linear-gradient(teal, purple)
+}
+h2{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-weight: bold;
+    color: black;
+}
+#welc_marquee{
+    font-size:50px;
+    font-style: italic;
+    font-weight: bold;
+}

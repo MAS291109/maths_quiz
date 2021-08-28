@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Maths Quiz Game!</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="main.js"></script>
+<head>
+    <center>
+        <marquee id="welc_marquee" width="60%" direction="right" height="100px">
+            Maths Quiz!
+        </marquee><hr>
+    <br><br><br><br>
+</center>
+</head>
+<body>
+<center>
+
+    <div>
+        <img class="img-responsive" src="quiz_1.jpg">
+        <h4 class="text-capitalize"><kbd>how to play :</kbd></h4>
+        <hr>
+        <h5 class="text-left text-capitalize" style="color: black; font-size: large;">Player 1 will set a mathematics-question for Player 2♡</h5>
+        <p class="text-muted text-left" style="font-size: medium; color: white;">If player 2 gets the answer correct they get a point..Vice-versa♡</p>
+    </div>
+    <br><br>
+
+    <div class="form-group">
+        <h2>Player 1 Name:</h2>
+        <input type="text" class="form-control" id="player1" placeholder="Name:">
+    </div>
+    <br><br>
+    <div class="form-group">
+       <h2>Player 2 Name:</h2>
+        <input type="text" class="form-control" id="player2" placeholder="Name:">
+        <br><br>
+        <button type="login" class="btn btn-primary" onclick="addUser()">Let's Start!</button>
+    </div>
+
+    <canvas id="myCanvas" width="800" height="600"></canvas>
+</center>
+</body>
